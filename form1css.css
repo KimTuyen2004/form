@@ -34,6 +34,7 @@ body{
 }
 .input_field{
     width: 100%;
+    padding-left: 30px;
 }
 
 .submit{
@@ -45,4 +46,9 @@ body{
     text-align: center;
     font-size: larger;
     border: 1px none;
+    color: white;
+}
+.submit:active{
+    color: white;
+    background-color: black;
 }
