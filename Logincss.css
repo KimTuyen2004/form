@@ -1,0 +1,76 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 500px;
+    margin: auto;
+    color: white;
+    background-color: rgb(40, 38, 38);
+    opacity: 0.8;
+    
+   
+}
+*{box-sizing: border-box;}
+.container{
+    background-color: rgb(111, 116, 114);
+    padding: 50px;
+    position: relative;
+    top: 125px;
+}
+/* style the input container */
+.container_input{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+/* style the icon */
+
+.icon{
+    width: 50px;
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+}
+
+.name{
+   
+    width: 190px;
+    margin-top: 10px;
+    
+    
+}
+
+.input_field{
+    width: 100%;
+    padding: 12px;
+}
+
+.input_field:focus{
+    border: 2px solid burlywood;
+}
+
+.sex{
+    display: flex;
+   
+}
+.sex_detail{
+    display: inline-flex;
+    padding-left: 55px;
+}
+
+.condition{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*  Css button submit*/
+.submit{
+    position: relative;
+    left: 315px;
+    height: 25px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: orange;
+    border: 1px none;
+}
