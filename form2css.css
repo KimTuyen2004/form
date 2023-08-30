@@ -30,20 +30,22 @@ body{
 .icon{
     width: 40px;
     height: 40px;
-    padding: 10px;
     background-color: rgb(119, 119, 120);
-    
+    padding: 10px;
     opacity: 0.4;
     
 }
+
 .input_field{
     width: 90%;
     height: 40px;
+
 }
 .infor_person{
     display: flex;
     gap: 30px;
     margin-bottom: 15px;
+    margin-top: 30px;
 }
 .infor_detail{
     display: flexbox;
